@@ -69,6 +69,8 @@ odera-site/
 │   ├── events/
 │   └── (custom folders as needed, e.g. about/, projects/)
 └── README.md
+└── .gitignore
+
 ```
 
 ## Tech Stack
