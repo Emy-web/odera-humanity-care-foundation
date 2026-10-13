@@ -30,7 +30,7 @@ A 10-page static website for **ODERA HUMANITY CARE FOUNDATION**, built with plai
 This site was built to give ODERA HUMANITY CARE FOUNDATION an online presence covering its mission, team, programs, projects, and yearly annual events — including support for large yearly video uploads without needing a backend server or database. All content is either plain HTML or driven by one editable JavaScript file (`js/content-data.js`), so the site can be updated without a rebuild or a developer.
 
 ## Architectural Diagram Of The Website
-https://drive.google.com/file/d/1ETXB8jkR8M6_wIeC5EOOUNrZc-kVlfRR/view?usp=sharing
+<img width="859" height="609" alt="image" src="https://github.com/user-attachments/assets/21e64e00-2aa1-4f52-bd99-cf01581ccf73" />
 
 ## Pages
 
