@@ -109,6 +109,9 @@ Pages like `about.html` and `projects.html` are hand-written HTML, so photos are
   <img src="images/about/founding-photo.jpg" alt="Founding photo">
 </div>
 ```
+## Static Website Architectural Diagram
+https://drive.google.com/file/d/1ETXB8jkR8M6_wIeC5EOOUNrZc-kVlfRR/view?usp=drive_link
+---
 
 Key rules:
 - Typing a file path as plain text does **not** display an image — it must be wrapped in an `<img src="...">` tag.
