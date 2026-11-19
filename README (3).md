@@ -164,11 +164,7 @@ Key rules:
 This site is designed for **yearly updates** after each annual event:
 
 1. **Photos** — upload new images to the relevant `images/` subfolder (locally in the project), add/edit an entry in `js/content-data.js` (for Team/Gallery/Events) or directly as an `<img>` tag (for other pages).
-2. **Videos** — upload the video file directly to the `videos/` folder in your **S3 bucket** (not this local project — video files are too large to keep in the repo). Copy the resulting CloudFront URL, e.g.:
-   ```
-   https://your-distribution-id.cloudfront.net/videos/2027-annual-event.mp4
-   ```
-   Paste it into that event's `videoUrl` field in `js/content-data.js`.
+2. **Videos** — To reduce AWS storage and data-transfer costs, annual event videos are hosted on the Odera Humanity Care Foundation's YouTube channel, rather than uploaded directly to the videos/ folder in the S3 bucket. To display a video on the website, copy its YouTube URL and paste it into the corresponding event's videoUrl field in js/content-data.js. Commit and push the updated code to GitHub, then deploy the updated website files to the S3 bucket. CloudFront will serve the updated website content to visitors. This approach avoids storing large video files in S3 or including them in the local project repository.
 3. **Publish the update**:
    - Upload the changed file(s) to your S3 bucket, keeping the same folder structure.
    - Go to **CloudFront → Invalidations → Create Invalidation**, and enter `/*` (or the specific changed file path) to clear the cache so visitors see the update immediately.
