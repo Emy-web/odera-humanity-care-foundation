@@ -1,4 +1,4 @@
-# ODERA HUMANITY CARE FOUNDATION — Website
+# ODERA HUMANITY CARE FOUNDATION — Static Website
 
 A 10-page static website for **ODERA HUMANITY CARE FOUNDATION**, built with plain HTML, CSS and JavaScript, and hosted on AWS (S3 + CloudFront).
 
